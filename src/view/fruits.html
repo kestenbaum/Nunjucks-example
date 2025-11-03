@@ -1,0 +1,20 @@
+{% extends "_layout.html"%}
+
+{% block content %}
+<h2>{{title}}</h2>
+<table> 
+    <thead>
+        <th>Name</th>
+        <th>Emoji</th>
+    </thead>
+    <tbody>
+        {% for item in data %}
+            <tr>
+                <td>{{ item.fruit }}</td>
+                <td>{{ item.emoji }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<a href="/">To main page</a>
+{% endblock %}
