@@ -22,18 +22,16 @@ npm run build
 ```
 
 ## Verwendete Technologien
-Express
- — Webserver
-TypeScript
- — Typisierung
-Nunjucks
- — Template-Engine
-Nodemon
- — automatischer Neustart bei Änderungen
-dotenv
- — Umgebungsvariablen
-CORS
- — Cross-Origin-Anfragen
+- **Node.js** – JavaScript-Laufzeitumgebung  
+- **Express.js** – Webserver-Framework  
+- **TypeScript** – Superset von JavaScript mit statischer Typisierung  
+- **Nunjucks** – Template-Engine für serverseitiges Rendering  
+- **Nodemon** – automatischer Neustart bei Dateiänderungen  
+- **dotenv** – Verwaltung von Umgebungsvariablen  
+- **CORS** – Unterstützung für Cross-Origin Resource Sharing  
+- **Prettier** – Code-Formatierung  
+- **ts-node** – Ausführung von TypeScript ohne vorherige Kompilierung  
+- **@types/\*** – Typdefinitionen für TypeScript
 
 ## Zugriff im Browser:
 ```bash
