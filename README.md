@@ -30,8 +30,6 @@ npm run build
 - **dotenv** – Verwaltung von Umgebungsvariablen  
 - **CORS** – Unterstützung für Cross-Origin Resource Sharing  
 - **Prettier** – Code-Formatierung  
-- **ts-node** – Ausführung von TypeScript ohne vorherige Kompilierung  
-- **@types/\*** – Typdefinitionen für TypeScript
 
 ## Zugriff im Browser:
 ```bash
